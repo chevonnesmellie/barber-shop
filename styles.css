@@ -5,13 +5,35 @@ body {
   background-size: 500px 800px;
 }
 
+.navbar-container {
+  margin-top: 0;
+}
+
 .main-container {
   margin: 250px 100px 50px 450px;
   color: white;
   text-align: center;
 }
 
-h1 {
+.about-container {
+  margin: 150px 100px 50px 750px;
+}
+
+.services-container {
+  margin: 100px 100px 50px 750px;
+  color: white;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-top: 0;
+}
+
+h1,
+h3 {
   font-family: "Permanent Marker", cursive;
   font-size: 65px;
   margin-bottom: 15px;
@@ -25,8 +47,30 @@ h2 {
 
 p {
   font-family: "Special Elite", cursive;
+  color: white;
+  font-size: 25px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 20px;
+  font-family: "Special Elite", cursive;
+  margin-top: 50px;
 }
 
 .book-now {
   padding: 10px 30px;
+}
+
+.menu-item {
+  margin-left: 40px;
+}
+
+.menu-link {
+  color: white;
+  text-decoration: none;
 }
